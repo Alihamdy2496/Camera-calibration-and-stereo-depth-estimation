@@ -1,0 +1,10 @@
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In member function ‘[01m[Kcv::Mat Node1::Compute_depth(cv::Mat)[m[K’:
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:108:32:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[Kcv::Mat[m[K’ to type ‘[01m[KIplImage*[m[K’ {aka ‘[01m[K_IplImage*[m[K’}
+  108 |     pixel = cvGet2D((IplImage*)[01;31m[Kout[m[K, i, j);
+      |                                [01;31m[K^~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:110:24:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[Kcv::Mat[m[K’ to type ‘[01m[KIplImage*[m[K’ {aka ‘[01m[K_IplImage*[m[K’}
+  110 |     cvSet2D((IplImage*)[01;31m[Kout[m[K, i, j, pixel);
+      |                        [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/elp_calibrate.dir/build.make:63: CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/elp_calibrate.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

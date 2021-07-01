@@ -1,0 +1,34 @@
+[35m[1mScanning dependencies of target elp_calibrate[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o[0m
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In member function ‘[01m[Kvoid Node1::elp_l(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:54:18:[m[K [01;31m[Kerror: [m[K‘[01m[KCvBridge[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’
+   54 |     sensor_msgs::[01;31m[KCvBridge[m[K img_bridge_;
+      |                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:56:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kbridge_[m[K’ was not declared in this scope
+   56 |         IplImage *in_image_ipl = [01;31m[Kbridge_[m[K.imgMsgToCv(msg, "passthrough");
+      |                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:57:28:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[KIplImage*[m[K’ {aka ‘[01m[K_IplImage*[m[K’} to non-scalar type ‘[01m[Kcv::Mat[m[K’ requested
+   57 |         cv::Mat in_image = [01;31m[Kin_image_ipl[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:58:17:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat in_image[m[K’
+   58 |         cv::Mat [01;31m[Kin_image[m[K = cv_bridge::toCvShare(msg, msg->encoding)->image;
+      |                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:57:17:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat in_image[m[K’ previously declared here
+   57 |         cv::Mat [01;36m[Kin_image[m[K = in_image_ipl;
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:60:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kimg[m[K’ was not declared in this scope
+   60 |   cv::imwrite("t1.jpg", [01;31m[Kimg[m[K);
+      |                         [01;31m[K^~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In member function ‘[01m[Kvoid Node1::elp_r(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:68:25:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kcv::InputArray[m[K’ {aka ‘[01m[Kconst cv::_InputArray&[m[K’} from expression of type ‘[01m[Kcv_bridge::CvImagePtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<cv_bridge::CvImage>[m[K’}
+   68 |   cv::imwrite("t2.jpg", [01;31m[Kcv_ptr[m[K);
+      |                         [01;31m[K^~~~~~[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/highgui.hpp:48[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:68[m[K,
+                 from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:19[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/imgcodecs.hpp:267:63:[m[K [01;36m[Knote: [m[Kin passing argument 2 of ‘[01m[Kbool cv::imwrite(const String&, cv::InputArray, const std::vector<int>&)[m[K’
+  267 | CV_EXPORTS_W bool imwrite( const String& filename, [01;36m[KInputArray img[m[K,
+      |                                                    [01;36m[K~~~~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/elp_calibrate.dir/build.make:63: CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/elp_calibrate.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,10 @@
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In member function ‘[01m[Kcv::Mat Node1::calibrate(cv::Mat)[m[K’:
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:182:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_path[m[K’ was not declared in this scope
+  182 |    std::cout << "Failed to read the image: " << [01;31m[Kimage_path[m[K << ", terminating..." << std::endl;
+      |                                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:183:4:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kcv::Mat[m[K’ [[01;31m[K-fpermissive[m[K]
+  183 |    [01;31m[Kreturn[m[K ;
+      |    [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/elp_calibrate.dir/build.make:63: CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/elp_calibrate.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

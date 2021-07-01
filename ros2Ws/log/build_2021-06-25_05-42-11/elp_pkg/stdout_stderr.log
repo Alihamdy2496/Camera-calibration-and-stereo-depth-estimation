@@ -1,0 +1,28 @@
+[35m[1mScanning dependencies of target elp_calibrate[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o[0m
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In member function ‘[01m[Kcv::Mat Node1::Compute_depth(cv::Mat)[m[K’:
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:108:21:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kconst CvArr*[m[K’ {aka ‘[01m[Kconst void*[m[K’}
+  108 |     pixel = cvGet2D([01;31m[Kout[m[K, i, j);
+      |                     [01;31m[K^~~[m[K
+      |                     [01;31m[K|[m[K
+      |                     [01;31m[Kcv::Mat[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/imgproc/types_c.h:46[m[K,
+                 from [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:45[m[K,
+                 from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:24[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/core/core_c.h:678:39:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KCvScalar cvGet2D(const CvArr*, int, int)[m[K’
+  678 | CVAPI(CvScalar) cvGet2D( [01;36m[Kconst CvArr* arr[m[K, int idx0, int idx1 );
+      |                          [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:110:13:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kcv::Mat[m[K’ to ‘[01m[KCvArr*[m[K’ {aka ‘[01m[Kvoid*[m[K’}
+  110 |     cvSet2D([01;31m[Kout[m[K, i, j, pixel);
+      |             [01;31m[K^~~[m[K
+      |             [01;31m[K|[m[K
+      |             [01;31m[Kcv::Mat[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/imgproc/types_c.h:46[m[K,
+                 from [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:45[m[K,
+                 from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:24[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/core/core_c.h:719:29:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid cvSet2D(CvArr*, int, int, CvScalar)[m[K’
+  719 | CVAPI(void) cvSet2D( [01;36m[KCvArr* arr[m[K, int idx0, int idx1, CvScalar value );
+      |                      [01;36m[K~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/elp_calibrate.dir/build.make:63: CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/elp_calibrate.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

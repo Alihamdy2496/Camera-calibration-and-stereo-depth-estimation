@@ -1,0 +1,140 @@
+[35m[1mScanning dependencies of target elp_calibrate[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o[0m
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In member function ‘[01m[Kvoid Node1::timer_cb()[m[K’:
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:83:12:[m[K [01;31m[Kerror: [m[Kcannot declare variable ‘[01m[Ksbm[m[K’ to be of abstract type ‘[01m[Kcv::StereoBM[m[K’
+   83 |   StereoBM [01;31m[Ksbm[m[K;
+      |            [01;31m[K^~~[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:56[m[K,
+                 from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:18[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3470:20:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kcv::StereoBM[m[K’:
+ 3470 | class CV_EXPORTS_W [01;36m[KStereoBM[m[K : public StereoMatcher
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3444:26:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void cv::StereoMatcher::compute(cv::InputArray, cv::InputArray, cv::OutputArray)[m[K’
+ 3444 |     CV_WRAP virtual void [01;36m[Kcompute[m[K( InputArray left, InputArray right,
+      |                          [01;36m[K^~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3447:25:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int cv::StereoMatcher::getMinDisparity() const[m[K’
+ 3447 |     CV_WRAP virtual int [01;36m[KgetMinDisparity[m[K() const = 0;
+      |                         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3448:26:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void cv::StereoMatcher::setMinDisparity(int)[m[K’
+ 3448 |     CV_WRAP virtual void [01;36m[KsetMinDisparity[m[K(int minDisparity) = 0;
+      |                          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3450:25:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int cv::StereoMatcher::getNumDisparities() const[m[K’
+ 3450 |     CV_WRAP virtual int [01;36m[KgetNumDisparities[m[K() const = 0;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3451:26:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void cv::StereoMatcher::setNumDisparities(int)[m[K’
+ 3451 |     CV_WRAP virtual void [01;36m[KsetNumDisparities[m[K(int numDisparities) = 0;
+      |                          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3453:25:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int cv::StereoMatcher::getBlockSize() const[m[K’
+ 3453 |     CV_WRAP virtual int [01;36m[KgetBlockSize[m[K() const = 0;
+      |                         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3454:26:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void cv::StereoMatcher::setBlockSize(int)[m[K’
+ 3454 |     CV_WRAP virtual void [01;36m[KsetBlockSize[m[K(int blockSize) = 0;
+      |                          [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3456:25:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int cv::StereoMatcher::getSpeckleWindowSize() const[m[K’
+ 3456 |     CV_WRAP virtual int [01;36m[KgetSpeckleWindowSize[m[K() const = 0;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3457:26:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void cv::StereoMatcher::setSpeckleWindowSize(int)[m[K’
+ 3457 |     CV_WRAP virtual void [01;36m[KsetSpeckleWindowSize[m[K(int speckleWindowSize) = 0;
+      |                          [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3459:25:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int cv::StereoMatcher::getSpeckleRange() const[m[K’
+ 3459 |     CV_WRAP virtual int [01;36m[KgetSpeckleRange[m[K() const = 0;
+      |                         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3460:26:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void cv::StereoMatcher::setSpeckleRange(int)[m[K’
+ 3460 |     CV_WRAP virtual void [01;36m[KsetSpeckleRange[m[K(int speckleRange) = 0;
+      |                          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3462:25:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int cv::StereoMatcher::getDisp12MaxDiff() const[m[K’
+ 3462 |     CV_WRAP virtual int [01;36m[KgetDisp12MaxDiff[m[K() const = 0;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3463:26:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void cv::StereoMatcher::setDisp12MaxDiff(int)[m[K’
+ 3463 |     CV_WRAP virtual void [01;36m[KsetDisp12MaxDiff[m[K(int disp12MaxDiff) = 0;
+      |                          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3477:25:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int cv::StereoBM::getPreFilterType() const[m[K’
+ 3477 |     CV_WRAP virtual int [01;36m[KgetPreFilterType[m[K() const = 0;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3478:26:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void cv::StereoBM::setPreFilterType(int)[m[K’
+ 3478 |     CV_WRAP virtual void [01;36m[KsetPreFilterType[m[K(int preFilterType) = 0;
+      |                          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3480:25:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int cv::StereoBM::getPreFilterSize() const[m[K’
+ 3480 |     CV_WRAP virtual int [01;36m[KgetPreFilterSize[m[K() const = 0;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3481:26:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void cv::StereoBM::setPreFilterSize(int)[m[K’
+ 3481 |     CV_WRAP virtual void [01;36m[KsetPreFilterSize[m[K(int preFilterSize) = 0;
+      |                          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3483:25:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int cv::StereoBM::getPreFilterCap() const[m[K’
+ 3483 |     CV_WRAP virtual int [01;36m[KgetPreFilterCap[m[K() const = 0;
+      |                         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3484:26:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void cv::StereoBM::setPreFilterCap(int)[m[K’
+ 3484 |     CV_WRAP virtual void [01;36m[KsetPreFilterCap[m[K(int preFilterCap) = 0;
+      |                          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3486:25:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int cv::StereoBM::getTextureThreshold() const[m[K’
+ 3486 |     CV_WRAP virtual int [01;36m[KgetTextureThreshold[m[K() const = 0;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3487:26:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void cv::StereoBM::setTextureThreshold(int)[m[K’
+ 3487 |     CV_WRAP virtual void [01;36m[KsetTextureThreshold[m[K(int textureThreshold) = 0;
+      |                          [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3489:25:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int cv::StereoBM::getUniquenessRatio() const[m[K’
+ 3489 |     CV_WRAP virtual int [01;36m[KgetUniquenessRatio[m[K() const = 0;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3490:26:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void cv::StereoBM::setUniquenessRatio(int)[m[K’
+ 3490 |     CV_WRAP virtual void [01;36m[KsetUniquenessRatio[m[K(int uniquenessRatio) = 0;
+      |                          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3492:25:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int cv::StereoBM::getSmallerBlockSize() const[m[K’
+ 3492 |     CV_WRAP virtual int [01;36m[KgetSmallerBlockSize[m[K() const = 0;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3493:26:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void cv::StereoBM::setSmallerBlockSize(int)[m[K’
+ 3493 |     CV_WRAP virtual void [01;36m[KsetSmallerBlockSize[m[K(int blockSize) = 0;
+      |                          [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3495:26:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual cv::Rect cv::StereoBM::getROI1() const[m[K’
+ 3495 |     CV_WRAP virtual Rect [01;36m[KgetROI1[m[K() const = 0;
+      |                          [01;36m[K^~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3496:26:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void cv::StereoBM::setROI1(cv::Rect)[m[K’
+ 3496 |     CV_WRAP virtual void [01;36m[KsetROI1[m[K(Rect roi1) = 0;
+      |                          [01;36m[K^~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3498:26:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual cv::Rect cv::StereoBM::getROI2() const[m[K’
+ 3498 |     CV_WRAP virtual Rect [01;36m[KgetROI2[m[K() const = 0;
+      |                          [01;36m[K^~~~~~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/calib3d.hpp:3499:26:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void cv::StereoBM::setROI2(cv::Rect)[m[K’
+ 3499 |     CV_WRAP virtual void [01;36m[KsetROI2[m[K(Rect roi2) = 0;
+      |                          [01;36m[K^~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:84:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::StereoBM[m[K’ has no member named ‘[01m[Kstate[m[K’
+   84 |   sbm.[01;31m[Kstate[m[K->SADWindowSize = 9;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:85:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::StereoBM[m[K’ has no member named ‘[01m[Kstate[m[K’
+   85 |   sbm.[01;31m[Kstate[m[K->numberOfDisparities = 112;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:86:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::StereoBM[m[K’ has no member named ‘[01m[Kstate[m[K’
+   86 |   sbm.[01;31m[Kstate[m[K->preFilterSize = 5;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:87:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::StereoBM[m[K’ has no member named ‘[01m[Kstate[m[K’
+   87 |   sbm.[01;31m[Kstate[m[K->preFilterCap = 61;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:88:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::StereoBM[m[K’ has no member named ‘[01m[Kstate[m[K’
+   88 |   sbm.[01;31m[Kstate[m[K->minDisparity = -39;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:89:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::StereoBM[m[K’ has no member named ‘[01m[Kstate[m[K’
+   89 |   sbm.[01;31m[Kstate[m[K->textureThreshold = 507;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:90:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::StereoBM[m[K’ has no member named ‘[01m[Kstate[m[K’
+   90 |   sbm.[01;31m[Kstate[m[K->uniquenessRatio = 0;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:91:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::StereoBM[m[K’ has no member named ‘[01m[Kstate[m[K’
+   91 |   sbm.[01;31m[Kstate[m[K->speckleWindowSize = 0;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:92:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::StereoBM[m[K’ has no member named ‘[01m[Kstate[m[K’
+   92 |   sbm.[01;31m[Kstate[m[K->speckleRange = 8;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:93:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::StereoBM[m[K’ has no member named ‘[01m[Kstate[m[K’
+   93 |   sbm.[01;31m[Kstate[m[K->disp12MaxDiff = 1;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:94:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kstereo[m[K’ was not declared in this scope
+   94 |      [01;31m[Kstereo[m[K->compute(myImageL,myImageR,disp);
+      |      [01;31m[K^~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:97:31:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(cv::StereoBM) (cv::Mat&, cv::Mat&, cv::Mat&)[m[K’
+   97 |   sbm(myImageR, myImageL, disp[01;31m[K)[m[K;
+      |                               [01;31m[K^[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:82:3:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Kcv[m[K’ defined but not used [[01;35m[K-Wunused-label[m[K]
+   82 |   [01;35m[Kcv[m[K:Mat disp8,disp;
+      |   [01;35m[K^~[m[K
+make[2]: *** [CMakeFiles/elp_calibrate.dir/build.make:63: CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/elp_calibrate.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

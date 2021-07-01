@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/elp_read/elp_read.egg-info
+writing ../../build/elp_read/elp_read.egg-info/PKG-INFO
+writing dependency_links to ../../build/elp_read/elp_read.egg-info/dependency_links.txt
+writing entry points to ../../build/elp_read/elp_read.egg-info/entry_points.txt
+writing requirements to ../../build/elp_read/elp_read.egg-info/requires.txt
+writing top-level names to ../../build/elp_read/elp_read.egg-info/top_level.txt
+writing manifest file '../../build/elp_read/elp_read.egg-info/SOURCES.txt'
+reading manifest file '../../build/elp_read/elp_read.egg-info/SOURCES.txt'
+writing manifest file '../../build/elp_read/elp_read.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_read/build
+creating /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_read/build/lib
+creating /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_read/build/lib/elp_read
+copying elp_read/__init__.py -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_read/build/lib/elp_read
+copying elp_read/elp_read.py -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_read/build/lib/elp_read
+running install
+running install_lib
+creating /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read/lib/python3.8/site-packages/elp_read
+copying /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_read/build/lib/elp_read/__init__.py -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read/lib/python3.8/site-packages/elp_read
+copying /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_read/build/lib/elp_read/elp_read.py -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read/lib/python3.8/site-packages/elp_read
+byte-compiling /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read/lib/python3.8/site-packages/elp_read/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read/lib/python3.8/site-packages/elp_read/elp_read.py to elp_read.cpython-38.pyc
+running install_data
+creating /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read/share/ament_index
+creating /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read/share/ament_index/resource_index
+creating /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read/share/ament_index/resource_index/packages
+copying resource/elp_read -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read/share/ament_index/resource_index/packages
+copying package.xml -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read/share/elp_read
+running install_egg_info
+Copying ../../build/elp_read/elp_read.egg-info to /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read/lib/python3.8/site-packages/elp_read-0.0.0-py3.8.egg-info
+running install_scripts
+Installing elp_read script to /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read/lib/elp_read
+writing list of installed files to '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_read/install.log'

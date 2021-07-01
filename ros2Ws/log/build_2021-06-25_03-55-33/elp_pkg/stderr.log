@@ -1,0 +1,61 @@
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In member function ‘[01m[Kcv::Mat Node1::Compute_disparity(cv::Mat, cv::Mat)[m[K’:
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:101:10:[m[K [01;31m[Kerror: [m[K‘[01m[KDisparityWLSFilter[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::ximgproc::DisparityWLSFilter[m[K’?
+  101 |      Ptr<[01;31m[KDisparityWLSFilter[m[K> wls_filter;
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |          [32m[Kcv::ximgproc::DisparityWLSFilter[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/ximgproc.hpp:41[m[K,
+                 from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:30[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/ximgproc/disparity_filter.hpp:82:20:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::ximgproc::DisparityWLSFilter[m[K’ declared here
+   82 | class CV_EXPORTS_W [01;36m[KDisparityWLSFilter[m[K : public DisparityFilter
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:101:28:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  101 |      Ptr<DisparityWLSFilter[01;31m[K>[m[K wls_filter;
+      |                            [01;31m[K^[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:118:16:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateDisparityWLSFilter[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::ximgproc::createDisparityWLSFilter[m[K’?
+  118 |   wls_filter = [01;31m[KcreateDisparityWLSFilter[m[K(left_matcher);
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                [32m[Kcv::ximgproc::createDisparityWLSFilter[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/ximgproc.hpp:41[m[K,
+                 from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:30[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/ximgproc/disparity_filter.hpp:131:25:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::ximgproc::createDisparityWLSFilter[m[K’ declared here
+  131 | Ptr<DisparityWLSFilter> [01;36m[KcreateDisparityWLSFilter[m[K(Ptr<StereoMatcher> matcher_left);
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:119:38:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateRightMatcher[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::ximgproc::createRightMatcher[m[K’?
+  119 |   Ptr<StereoMatcher> right_matcher = [01;31m[KcreateRightMatcher[m[K(left_matcher);
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                      [32m[Kcv::ximgproc::createRightMatcher[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/ximgproc.hpp:41[m[K,
+                 from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:30[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/ximgproc/disparity_filter.hpp:139:20:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::ximgproc::createRightMatcher[m[K’ declared here
+  139 | Ptr<StereoMatcher> [01;36m[KcreateRightMatcher[m[K(Ptr<StereoMatcher> matcher_left);
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:123:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_disp[m[K’ was not declared in this scope
+  123 |   left_matcher-> compute(left_for_matcher, right_for_matcher,[01;31m[Kleft_disp[m[K);
+      |                                                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:124:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_disp[m[K’ was not declared in this scope
+  124 |   right_matcher->compute(right_for_matcher,left_for_matcher, [01;31m[Kright_disp[m[K);
+      |                                                              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:126:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  126 |         wls_filter[01;31m[K->[m[KsetLambda(lambda);
+      |                   [01;31m[K^~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:127:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  127 |         wls_filter[01;31m[K->[m[KsetSigmaColor(sigma);
+      |                   [01;31m[K^~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:128:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  128 |         wls_filter[01;31m[K->[m[Kfilter(left_disp,left,filtered_disp,right_disp);
+      |                   [01;31m[K^~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:128:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kfiltered_disp[m[K’ was not declared in this scope
+  128 |         wls_filter->filter(left_disp,left,[01;31m[Kfiltered_disp[m[K,right_disp);
+      |                                           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:130:9:[m[K [01;31m[Kerror: [m[K‘[01m[KgetDisparityVis[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::ximgproc::getDisparityVis[m[K’?
+  130 |         [01;31m[KgetDisparityVis[m[K(filtered_disp,filtered_disp_vis,vis_mult);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |         [32m[Kcv::ximgproc::getDisparityVis[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/ximgproc.hpp:41[m[K,
+                 from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:30[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/ximgproc/disparity_filter.hpp:204:6:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::ximgproc::getDisparityVis[m[K’ declared here
+  204 | void [01;36m[KgetDisparityVis[m[K(InputArray src,OutputArray dst,double scale=1.0);
+      |      [01;36m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/elp_calibrate.dir/build.make:63: CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/elp_calibrate.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

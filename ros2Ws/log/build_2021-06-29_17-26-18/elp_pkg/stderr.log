@@ -1,0 +1,16 @@
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In member function ‘[01m[Kcv::Mat Node1::Compute_disparity(cv::Mat, cv::Mat)[m[K’:
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:131:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kright_for_matcher[m[K’
+  131 |   left_for_matcher=myImageL
+      |                            [01;31m[K^[m[K
+      |                            [32m[K;[m[K
+  132 |   [32m[Kright_for_matcher[m[K=myImageR
+      |   [32m[K~~~~~~~~~~~~~~~~~[m[K         
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:146:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatcher[m[K’ was not declared in this scope
+  146 |   [01;31m[Kmatcher[m[K->setUniquenessRatio(0);//0
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:114:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmyImageR[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  114 |  cv::Mat Compute_disparity([01;35m[Kcv::Mat myImageR[m[K,cv::Mat myImageL){
+      |                            [01;35m[K~~~~~~~~^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/elp_calibrate.dir/build.make:63: CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/elp_calibrate.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

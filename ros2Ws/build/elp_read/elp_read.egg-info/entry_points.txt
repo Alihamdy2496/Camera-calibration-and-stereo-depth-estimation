@@ -1,0 +1,3 @@
+[console_scripts]
+elp_read = elp_read.elp_read:main
+

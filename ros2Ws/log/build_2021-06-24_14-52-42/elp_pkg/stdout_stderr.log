@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target elp_calibrate[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o[0m
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:64:68:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat Node1::distortionCoef[m[K’
+   64 |   cv::Mat distortionCoef = (cv::Mat_<double>(1,5) << k1, k2, p1, p2[01;31m[K)[m[K;
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:63:11:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kcv::Mat Node1::distortionCoef[m[K’
+   63 |   cv::Mat [01;36m[KdistortionCoef[m[K = (cv::Mat_<double>(1,4) << k1, k2, p1, p2);
+      |           [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In member function ‘[01m[Kcv::Mat Node1::calibrate(cv::Mat)[m[K’:
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:184:4:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kcv::Mat[m[K’ [[01;31m[K-fpermissive[m[K]
+  184 |    [01;31m[Kreturn[m[K ;
+      |    [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/elp_calibrate.dir/build.make:63: CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/elp_calibrate.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

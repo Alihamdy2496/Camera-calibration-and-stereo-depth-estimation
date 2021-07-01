@@ -1,0 +1,7 @@
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In member function ‘[01m[Kvoid Node1::timer_cb()[m[K’:
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:79:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::VideoCapture[m[K’ has no member named ‘[01m[Kempty[m[K’
+   79 |   if (cap1.[01;31m[Kempty[m[K() /*|| myImageL.empty()*/){ //Breaking the loop if no video frame is detected//
+      |            [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/elp_calibrate.dir/build.make:63: CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/elp_calibrate.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

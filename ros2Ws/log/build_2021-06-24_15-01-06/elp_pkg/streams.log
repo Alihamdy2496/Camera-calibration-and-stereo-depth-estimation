@@ -1,0 +1,199 @@
+[0.023s] Invoking command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/tekomoro_tf:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/python_qos_demo:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/pkg_name:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_9:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_8:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab7:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab4:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab3:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/control_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/nav2_depend_ws/install/nav2_gazebo_spawner:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project:/opt/ros/foxy /usr/bin/cmake --build /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg -- -j4 -l4
+[0.125s] [35m[1mScanning dependencies of target elp_calibrate[0m
+[0.193s] [ 50%] [32mBuilding CXX object CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o[0m
+[4.510s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In member function ‘[01m[Kcv::Mat Node1::calibrate(cv::Mat)[m[K’:
+[4.511s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:182:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv::Mat::Mat(int)[m[K’
+[4.512s]   182 |    return (cv::Mat)[01;31m[K0[m[K;
+[4.512s]       |                    [01;31m[K^[m[K
+[4.512s] In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.512s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.512s]                  from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:18[m[K:
+[4.512s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:2091:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(cv::Mat&&)[m[K’
+[4.512s]  2091 |     [01;36m[KMat[m[K(Mat&& m);
+[4.512s]       |     [01;36m[K^~~[m[K
+[4.512s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:2091:15:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kcv::Mat&&[m[K’
+[4.512s]  2091 |     Mat([01;36m[KMat&& m[m[K);
+[4.513s]       |         [01;36m[K~~~~~~^[m[K
+[4.513s] In file included from [01m[K/usr/local/include/opencv4/opencv2/core/cuda.hpp:1268[m[K,
+[4.513s]                  from [01m[K/usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp:47[m[K,
+[4.513s]                  from [01m[K/usr/local/include/opencv4/opencv2/stitching/warpers.hpp:46[m[K,
+[4.513s]                  from [01m[K/usr/local/include/opencv4/opencv2/stitching.hpp:48[m[K,
+[4.513s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:86[m[K,
+[4.513s]                  from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:18[m[K:
+[4.513s] [01m[K/usr/local/include/opencv4/opencv2/core/cuda.inl.hpp:713:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(const cv::cuda::GpuMat&)[m[K’
+[4.513s]   713 | [01;36m[KMat[m[K::Mat(const cuda::GpuMat& m)
+[4.513s]       | [01;36m[K^~~[m[K
+[4.513s] [01m[K/usr/local/include/opencv4/opencv2/core/cuda.inl.hpp:713:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst cv::cuda::GpuMat&[m[K’
+[4.513s]   713 | Mat::Mat([01;36m[Kconst cuda::GpuMat& m[m[K)
+[4.513s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.514s] In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.514s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.514s]                  from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:18[m[K:
+[4.514s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1048:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> cv::Mat::Mat(const cv::MatCommaInitializer_<_Tp>&)[m[K’
+[4.514s]  1048 |     template<typename _Tp> explicit [01;36m[KMat[m[K(const MatCommaInitializer_<_Tp>& commaInitializer);
+[4.514s]       |                                     [01;36m[K^~~[m[K
+[4.514s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1048:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.514s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:182:20:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst cv::MatCommaInitializer_<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+[4.514s]   182 |    return (cv::Mat)[01;36m[K0[m[K;
+[4.514s]       |                    [01;36m[K^[m[K
+[4.514s] In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.514s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.515s]                  from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:18[m[K:
+[4.515s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1044:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> cv::Mat::Mat(const cv::Point3_<_Tp>&, bool)[m[K’
+[4.515s]  1044 |     template<typename _Tp> explicit [01;36m[KMat[m[K(const Point3_<_Tp>& pt, bool copyData=true);
+[4.515s]       |                                     [01;36m[K^~~[m[K
+[4.515s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1044:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.515s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:182:20:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst cv::Point3_<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+[4.515s]   182 |    return (cv::Mat)[01;36m[K0[m[K;
+[4.515s]       |                    [01;36m[K^[m[K
+[4.515s] In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.515s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.515s]                  from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:18[m[K:
+[4.515s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1040:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> cv::Mat::Mat(const cv::Point_<_Tp>&, bool)[m[K’
+[4.515s]  1040 |     template<typename _Tp> explicit [01;36m[KMat[m[K(const Point_<_Tp>& pt, bool copyData=true);
+[4.516s]       |                                     [01;36m[K^~~[m[K
+[4.516s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1040:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.516s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:182:20:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst cv::Point_<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+[4.516s]   182 |    return (cv::Mat)[01;36m[K0[m[K;
+[4.516s]       |                    [01;36m[K^[m[K
+[4.516s] In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.516s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.516s]                  from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:18[m[K:
+[4.516s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1036:51:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, int m, int n> cv::Mat::Mat(const cv::Matx<_Tp, m, n>&, bool)[m[K’
+[4.516s]  1036 |     template<typename _Tp, int m, int n> explicit [01;36m[KMat[m[K(const Matx<_Tp, m, n>& mtx, bool copyData=true);
+[4.516s]       |                                                   [01;36m[K^~~[m[K
+[4.516s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1036:51:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.516s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:182:20:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst cv::Matx<_Tp, m, n>[m[K’ and ‘[01m[Kint[m[K’
+[4.517s]   182 |    return (cv::Mat)[01;36m[K0[m[K;
+[4.517s]       |                    [01;36m[K^[m[K
+[4.517s] In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.517s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.517s]                  from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:18[m[K:
+[4.517s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1032:44:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, int n> cv::Mat::Mat(const cv::Vec<_Tp, m>&, bool)[m[K’
+[4.517s]  1032 |     template<typename _Tp, int n> explicit [01;36m[KMat[m[K(const Vec<_Tp, n>& vec, bool copyData=true);
+[4.517s]       |                                            [01;36m[K^~~[m[K
+[4.517s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1032:44:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.517s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:182:20:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst cv::Vec<_Tp, m>[m[K’ and ‘[01m[Kint[m[K’
+[4.517s]   182 |    return (cv::Mat)[01;36m[K0[m[K;
+[4.517s]       |                    [01;36m[K^[m[K
+[4.517s] In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.518s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.518s]                  from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:18[m[K:
+[4.518s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1028:49:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> cv::Mat::Mat(const std::array<_Tp, _Nm>&, bool)[m[K’
+[4.518s]  1028 |     template<typename _Tp, size_t _Nm> explicit [01;36m[KMat[m[K(const std::array<_Tp, _Nm>& arr, bool copyData=false);
+[4.518s]       |                                                 [01;36m[K^~~[m[K
+[4.518s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1028:49:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.518s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:182:20:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’ and ‘[01m[Kint[m[K’
+[4.518s]   182 |    return (cv::Mat)[01;36m[K0[m[K;
+[4.518s]       |                    [01;36m[K^[m[K
+[4.518s] In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.518s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.519s]                  from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:18[m[K:
+[4.519s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1024:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> cv::Mat::Mat(std::initializer_list<int>, std::initializer_list<_Tp>)[m[K’
+[4.519s]  1024 |     template<typename _Tp> explicit [01;36m[KMat[m[K(const std::initializer_list<int> sizes, const std::initializer_list<_Tp> list);
+[4.520s]       |                                     [01;36m[K^~~[m[K
+[4.520s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1024:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.520s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:182:20:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[4.521s]   182 |    return (cv::Mat)[01;36m[K0[m[K;
+[4.521s]       |                    [01;36m[K^[m[K
+[4.521s] In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.521s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.521s]                  from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:18[m[K:
+[4.522s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1020:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class> cv::Mat::Mat(std::initializer_list<_Tp>)[m[K’
+[4.522s]  1020 |     explicit [01;36m[KMat[m[K(const std::initializer_list<_Tp> list);
+[4.522s]       |              [01;36m[K^~~[m[K
+[4.522s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1020:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.523s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:182:20:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+[4.523s]   182 |    return (cv::Mat)[01;36m[K0[m[K;
+[4.523s]       |                    [01;36m[K^[m[K
+[4.523s] In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.523s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.524s]                  from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:18[m[K:
+[4.524s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1015:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> cv::Mat::Mat(const std::vector<_Tp>&, bool)[m[K’
+[4.524s]  1015 |     template<typename _Tp> explicit [01;36m[KMat[m[K(const std::vector<_Tp>& vec, bool copyData=false);
+[4.524s]       |                                     [01;36m[K^~~[m[K
+[4.524s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1015:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.525s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:182:20:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::vector<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+[4.525s]   182 |    return (cv::Mat)[01;36m[K0[m[K;
+[4.525s]       |                    [01;36m[K^[m[K
+[4.525s] In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.526s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.526s]                  from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:18[m[K:
+[4.526s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:997:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(const cv::Mat&, const std::vector<cv::Range>&)[m[K’
+[4.526s]   997 |     [01;36m[KMat[m[K(const Mat& m, const std::vector<Range>& ranges);
+[4.526s]       |     [01;36m[K^~~[m[K
+[4.527s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:997:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[4.527s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:987:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(const cv::Mat&, const cv::Range*)[m[K’
+[4.527s]   987 |     [01;36m[KMat[m[K(const Mat& m, const Range* ranges);
+[4.527s]       |     [01;36m[K^~~[m[K
+[4.527s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:987:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[4.528s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:977:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(const cv::Mat&, const Rect&)[m[K’
+[4.528s]   977 |     [01;36m[KMat[m[K(const Mat& m, const Rect& roi);
+[4.528s]       |     [01;36m[K^~~[m[K
+[4.529s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:977:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[4.529s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:967:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(const cv::Mat&, const cv::Range&, const cv::Range&)[m[K’
+[4.529s]   967 |     [01;36m[KMat[m[K(const Mat& m, const Range& rowRange, const Range& colRange=Range::all());
+[4.529s]       |     [01;36m[K^~~[m[K
+[4.530s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:967:5:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[4.530s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:955:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(const std::vector<int>&, int, void*, const size_t*)[m[K’
+[4.530s]   955 |     [01;36m[KMat[m[K(const std::vector<int>& sizes, int type, void* data, const size_t* steps=0);
+[4.531s]       |     [01;36m[K^~~[m[K
+[4.531s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:955:5:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[4.531s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:941:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(int, const int*, int, void*, const size_t*)[m[K’
+[4.532s]   941 |     [01;36m[KMat[m[K(int ndims, const int* sizes, int type, void* data, const size_t* steps=0);
+[4.532s]       |     [01;36m[K^~~[m[K
+[4.532s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:941:5:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+[4.532s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:926:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(cv::Size, int, void*, size_t)[m[K’
+[4.532s]   926 |     [01;36m[KMat[m[K(Size size, int type, void* data, size_t step=AUTO_STEP);
+[4.533s]       |     [01;36m[K^~~[m[K
+[4.535s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:926:5:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[4.536s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:910:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(int, int, int, void*, size_t)[m[K’
+[4.536s]   910 |     [01;36m[KMat[m[K(int rows, int cols, int type, void* data, size_t step=AUTO_STEP);
+[4.536s]       |     [01;36m[K^~~[m[K
+[4.536s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:910:5:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+[4.537s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:894:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(const cv::Mat&)[m[K’
+[4.537s]   894 |     [01;36m[KMat[m[K(const Mat& m);
+[4.537s]       |     [01;36m[K^~~[m[K
+[4.537s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:894:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst cv::Mat&[m[K’
+[4.537s]   894 |     Mat([01;36m[Kconst Mat& m[m[K);
+[4.537s]       |         [01;36m[K~~~~~~~~~~~^[m[K
+[4.537s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:884:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(const std::vector<int>&, int, const Scalar&)[m[K’
+[4.537s]   884 |     [01;36m[KMat[m[K(const std::vector<int>& sizes, int type, const Scalar& s);
+[4.537s]       |     [01;36m[K^~~[m[K
+[4.538s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:884:5:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[4.538s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:874:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(int, const int*, int, const Scalar&)[m[K’
+[4.538s]   874 |     [01;36m[KMat[m[K(int ndims, const int* sizes, int type, const Scalar& s);
+[4.538s]       |     [01;36m[K^~~[m[K
+[4.538s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:874:5:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[4.538s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:863:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(const std::vector<int>&, int)[m[K’
+[4.539s]   863 |     [01;36m[KMat[m[K(const std::vector<int>& sizes, int type);
+[4.539s]       |     [01;36m[K^~~[m[K
+[4.539s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:863:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[4.539s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:856:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(int, const int*, int)[m[K’
+[4.539s]   856 |     [01;36m[KMat[m[K(int ndims, const int* sizes, int type);
+[4.539s]       |     [01;36m[K^~~[m[K
+[4.540s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:856:5:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[4.540s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:848:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(cv::Size, int, const Scalar&)[m[K’
+[4.540s]   848 |     [01;36m[KMat[m[K(Size size, int type, const Scalar& s);
+[4.540s]       |     [01;36m[K^~~[m[K
+[4.540s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:848:5:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[4.540s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:837:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(int, int, int, const Scalar&)[m[K’
+[4.540s]   837 |     [01;36m[KMat[m[K(int rows, int cols, int type, const Scalar& s);
+[4.540s]       |     [01;36m[K^~~[m[K
+[4.540s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:837:5:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[4.541s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:826:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(cv::Size, int)[m[K’
+[4.541s]   826 |     [01;36m[KMat[m[K(Size size, int type);
+[4.541s]       |     [01;36m[K^~~[m[K
+[4.541s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:826:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[4.541s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:818:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(int, int, int)[m[K’
+[4.541s]   818 |     [01;36m[KMat[m[K(int rows, int cols, int type);
+[4.541s]       |     [01;36m[K^~~[m[K
+[4.541s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:818:5:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[4.541s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:810:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat()[m[K’
+[4.541s]   810 |     [01;36m[KMat[m[K() CV_NOEXCEPT;
+[4.542s]       |     [01;36m[K^~~[m[K
+[4.542s] [01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:810:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[5.868s] make[2]: *** [CMakeFiles/elp_calibrate.dir/build.make:63: CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o] Error 1
+[5.868s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/elp_calibrate.dir/all] Error 2
+[5.869s] make: *** [Makefile:141: all] Error 2
+[5.873s] Invoked command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/tekomoro_tf:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/python_qos_demo:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/pkg_name:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_9:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_8:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab7:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab4:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab3:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/control_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/nav2_depend_ws/install/nav2_gazebo_spawner:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project:/opt/ros/foxy /usr/bin/cmake --build /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg -- -j4 -l4

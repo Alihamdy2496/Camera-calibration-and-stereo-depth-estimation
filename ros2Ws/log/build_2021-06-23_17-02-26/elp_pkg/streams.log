@@ -1,0 +1,89 @@
+[0.074s] Invoking command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/tekomoro_tf:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/python_qos_demo:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/pkg_name:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_9:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_8:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab7:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab4:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab3:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/control_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/nav2_depend_ws/install/nav2_gazebo_spawner:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project:/opt/ros/foxy /usr/bin/cmake --build /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg -- -j4 -l4
+[0.179s] [35m[1mScanning dependencies of target elp_calibrate[0m
+[0.371s] [ 50%] [32mBuilding CXX object CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o[0m
+[0.767s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:56:41:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+[0.767s]    56 |        cv_ptr = cv_bridge::toCvCopy(msg,[01;35m[K'BGR8'[m[K );
+[0.767s]       |                                         [01;35m[K^~~~~~[m[K
+[0.767s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:64:41:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+[0.767s]    64 |        cv_ptr = cv_bridge::toCvCopy(msg,[01;35m[K'BGR8'[m[K );
+[0.768s]       |                                         [01;35m[K^~~~~~[m[K
+[4.683s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In member function ‘[01m[Kvoid Node1::elp_l(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr) const[m[K’:
+[4.683s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:56:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoCvCopy(const SharedPtr&, int)[m[K’
+[4.684s]    56 |        cv_ptr = cv_bridge::toCvCopy(msg,'BGR8' [01;31m[K)[m[K;
+[4.684s]       |                                                [01;31m[K^[m[K
+[4.684s] In file included from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:25[m[K:
+[4.684s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:175:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)[m[K’
+[4.684s]   175 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[4.684s]       |                             [01;36m[K^~~~~~~~[m[K
+[4.684s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:177:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+[4.684s]   177 |   [01;36m[Kconst std::string & encoding = std::string()[m[K);
+[4.685s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.685s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:179:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)[m[K’
+[4.685s]   179 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[4.685s]       |                             [01;36m[K^~~~~~~~[m[K
+[4.685s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:180:61:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::CompressedImage_<std::allocator<void> > >&[m[K’}
+[4.685s]   180 |   [01;36m[Kconst sensor_msgs::msg::CompressedImage::ConstSharedPtr & source[m[K,
+[4.686s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.686s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:202:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const Image&, const string&)[m[K’
+[4.686s]   202 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[4.686s]       |                             [01;36m[K^~~~~~~~[m[K
+[4.686s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:203:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst Image&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Image_<std::allocator<void> >&[m[K’}
+[4.686s]   203 |   [01;36m[Kconst sensor_msgs::msg::Image & source[m[K,
+[4.686s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.686s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:206:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const CompressedImage&, const string&)[m[K’
+[4.687s]   206 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[4.687s]       |                             [01;36m[K^~~~~~~~[m[K
+[4.687s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:207:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst CompressedImage&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::CompressedImage_<std::allocator<void> >&[m[K’}
+[4.687s]   207 |   [01;36m[Kconst sensor_msgs::msg::CompressedImage & source[m[K,
+[4.687s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.687s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:57:25:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kcv::InputArray[m[K’ {aka ‘[01m[Kconst cv::_InputArray&[m[K’} from expression of type ‘[01m[Kcv_bridge::CvImagePtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<cv_bridge::CvImage>[m[K’}
+[4.687s]    57 |   cv::imwrite("t1.jpg", [01;31m[Kcv_ptr[m[K);
+[4.687s]       |                         [01;31m[K^~~~~~[m[K
+[4.688s] In file included from [01m[K/usr/local/include/opencv4/opencv2/highgui.hpp:48[m[K,
+[4.688s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:68[m[K,
+[4.688s]                  from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:19[m[K:
+[4.688s] [01m[K/usr/local/include/opencv4/opencv2/imgcodecs.hpp:267:63:[m[K [01;36m[Knote: [m[Kin passing argument 2 of ‘[01m[Kbool cv::imwrite(const String&, cv::InputArray, const std::vector<int>&)[m[K’
+[4.688s]   267 | CV_EXPORTS_W bool imwrite( const String& filename, [01;36m[KInputArray img[m[K,
+[4.688s]       |                                                    [01;36m[K~~~~~~~~~~~^~~[m[K
+[4.688s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In member function ‘[01m[Kvoid Node1::elp_r(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr) const[m[K’:
+[4.688s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:64:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoCvCopy(const SharedPtr&, int)[m[K’
+[4.688s]    64 |        cv_ptr = cv_bridge::toCvCopy(msg,'BGR8' [01;31m[K)[m[K;
+[4.689s]       |                                                [01;31m[K^[m[K
+[4.689s] In file included from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:25[m[K:
+[4.689s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:175:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)[m[K’
+[4.689s]   175 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[4.689s]       |                             [01;36m[K^~~~~~~~[m[K
+[4.689s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:177:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+[4.689s]   177 |   [01;36m[Kconst std::string & encoding = std::string()[m[K);
+[4.690s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.690s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:179:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)[m[K’
+[4.690s]   179 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[4.690s]       |                             [01;36m[K^~~~~~~~[m[K
+[4.690s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:180:61:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::CompressedImage_<std::allocator<void> > >&[m[K’}
+[4.690s]   180 |   [01;36m[Kconst sensor_msgs::msg::CompressedImage::ConstSharedPtr & source[m[K,
+[4.690s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.690s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:202:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const Image&, const string&)[m[K’
+[4.690s]   202 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[4.690s]       |                             [01;36m[K^~~~~~~~[m[K
+[4.691s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:203:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst Image&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Image_<std::allocator<void> >&[m[K’}
+[4.691s]   203 |   [01;36m[Kconst sensor_msgs::msg::Image & source[m[K,
+[4.691s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.691s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:206:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const CompressedImage&, const string&)[m[K’
+[4.691s]   206 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[4.691s]       |                             [01;36m[K^~~~~~~~[m[K
+[4.691s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:207:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst CompressedImage&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::CompressedImage_<std::allocator<void> >&[m[K’}
+[4.691s]   207 |   [01;36m[Kconst sensor_msgs::msg::CompressedImage & source[m[K,
+[4.691s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.692s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:65:25:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kcv::InputArray[m[K’ {aka ‘[01m[Kconst cv::_InputArray&[m[K’} from expression of type ‘[01m[Kcv_bridge::CvImagePtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<cv_bridge::CvImage>[m[K’}
+[4.692s]    65 |   cv::imwrite("t2.jpg", [01;31m[Kcv_ptr[m[K);
+[4.692s]       |                         [01;31m[K^~~~~~[m[K
+[4.692s] In file included from [01m[K/usr/local/include/opencv4/opencv2/highgui.hpp:48[m[K,
+[4.692s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:68[m[K,
+[4.692s]                  from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:19[m[K:
+[4.692s] [01m[K/usr/local/include/opencv4/opencv2/imgcodecs.hpp:267:63:[m[K [01;36m[Knote: [m[Kin passing argument 2 of ‘[01m[Kbool cv::imwrite(const String&, cv::InputArray, const std::vector<int>&)[m[K’
+[4.692s]   267 | CV_EXPORTS_W bool imwrite( const String& filename, [01;36m[KInputArray img[m[K,
+[4.693s]       |                                                    [01;36m[K~~~~~~~~~~~^~~[m[K
+[7.765s] make[2]: *** [CMakeFiles/elp_calibrate.dir/build.make:63: CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o] Error 1
+[7.766s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/elp_calibrate.dir/all] Error 2
+[7.766s] make: *** [Makefile:141: all] Error 2
+[7.772s] Invoked command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/tekomoro_tf:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/python_qos_demo:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/pkg_name:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_9:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_8:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab7:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab4:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab3:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/control_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/nav2_depend_ws/install/nav2_gazebo_spawner:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project:/opt/ros/foxy /usr/bin/cmake --build /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg -- -j4 -l4

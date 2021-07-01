@@ -1,0 +1,33 @@
+[35m[1mScanning dependencies of target elp_calibrate[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o[0m
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:30:19:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   30 |  VideoCapture cap([01;31m[K2[m[K);//Declaring an object to capture stream of frames from default camera//
+      |                   [01;31m[K^[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:30:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In constructor ‘[01m[KNode1::Node1()[m[K’:
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:38:3:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kcv::VideoCapture Node1::cap(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   38 |   [01;31m[Kcap[m[K.set(CAP_PROP_FRAME_WIDTH, 1280);//Setting the width of the video
+      |   [01;31m[K^~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:39:3:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kcv::VideoCapture Node1::cap(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   39 |   [01;31m[Kcap[m[K.set(CAP_PROP_FRAME_HEIGHT, 720);//Setting the height of the video//
+      |   [01;31m[K^~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:40:8:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kcv::VideoCapture Node1::cap(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   40 |   if (![01;31m[Kcap[m[K.isOpened()){ //This section prompt an error message if no video stream is found//
+      |        [01;31m[K^~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:40:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KisOpened[m[K’
+   40 |   if [34m[K([m[K!cap.[01;31m[Ki[m[K[32m[KsOpened[m[K()){ //This section prompt an error message if no video stream is found//
+      |      [34m[K~[m[K     [01;31m[K^[m[K[32m[K~~~~~~~[m[K
+      |            [32m[K)[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:44:7:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kcv::VideoCapture Node1::cap(int)[m[K’
+   44 |   [01;31m[Kcap >> myImage[m[K;
+      |   [01;31m[K~~~~^~~~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:30:15:[m[K [01;36m[Knote: [m[Kdeclared here
+   30 |  VideoCapture [01;36m[Kcap[m[K(2);//Declaring an object to capture stream of frames from default camera//
+      |               [01;36m[K^~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In destructor ‘[01m[Kvirtual Node1::~Node1()[m[K’:
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:51:3:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kcv::VideoCapture Node1::cap(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   51 |   [01;31m[Kcap[m[K.release();//Releasing the buffer memory//
+      |   [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/elp_calibrate.dir/build.make:63: CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/elp_calibrate.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

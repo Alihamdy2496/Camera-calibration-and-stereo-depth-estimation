@@ -1,0 +1,21 @@
+[0.448s] Invoking command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_read': PYTHONPATH=/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/elp_read build --build-base /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_read/build install --prefix /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read --record /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_read/install.log --single-version-externally-managed
+[0.818s] running egg_info
+[0.819s] writing ../../build/elp_read/elp_read.egg-info/PKG-INFO
+[0.819s] writing dependency_links to ../../build/elp_read/elp_read.egg-info/dependency_links.txt
+[0.819s] writing entry points to ../../build/elp_read/elp_read.egg-info/entry_points.txt
+[0.820s] writing requirements to ../../build/elp_read/elp_read.egg-info/requires.txt
+[0.820s] writing top-level names to ../../build/elp_read/elp_read.egg-info/top_level.txt
+[0.864s] reading manifest file '../../build/elp_read/elp_read.egg-info/SOURCES.txt'
+[0.865s] writing manifest file '../../build/elp_read/elp_read.egg-info/SOURCES.txt'
+[0.866s] running build
+[0.866s] running build_py
+[0.866s] running install
+[0.867s] running install_lib
+[0.869s] running install_data
+[0.870s] running install_egg_info
+[0.873s] removing '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read/lib/python3.8/site-packages/elp_read-0.0.0-py3.8.egg-info' (and everything under it)
+[0.873s] Copying ../../build/elp_read/elp_read.egg-info to /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read/lib/python3.8/site-packages/elp_read-0.0.0-py3.8.egg-info
+[0.874s] running install_scripts
+[0.896s] Installing elp_read script to /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read/lib/elp_read
+[0.897s] writing list of installed files to '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_read/install.log'
+[0.933s] Invoked command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_read' returned '0': PYTHONPATH=/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/elp_read build --build-base /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_read/build install --prefix /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read --record /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_read/install.log --single-version-externally-managed

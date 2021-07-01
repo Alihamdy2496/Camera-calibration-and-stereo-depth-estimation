@@ -1,0 +1,65 @@
+[0.022s] Invoking command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/tekomoro_tf:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/python_qos_demo:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/pkg_name:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_9:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_8:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab7:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab4:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab3:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/control_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/nav2_depend_ws/install/nav2_gazebo_spawner:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project:/opt/ros/foxy /usr/bin/cmake --build /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg -- -j4 -l4
+[0.098s] [35m[1mScanning dependencies of target elp_calibrate[0m
+[0.142s] [ 50%] [32mBuilding CXX object CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o[0m
+[2.764s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In member function ‘[01m[Kcv::Mat Node1::Compute_disparity(cv::Mat, cv::Mat)[m[K’:
+[2.764s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:101:10:[m[K [01;31m[Kerror: [m[K‘[01m[KDisparityWLSFilter[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::ximgproc::DisparityWLSFilter[m[K’?
+[2.764s]   101 |      Ptr<[01;31m[KDisparityWLSFilter[m[K> wls_filter;
+[2.765s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.765s]       |          [32m[Kcv::ximgproc::DisparityWLSFilter[m[K
+[2.765s] In file included from [01m[K/usr/local/include/opencv4/opencv2/ximgproc.hpp:41[m[K,
+[2.765s]                  from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:30[m[K:
+[2.765s] [01m[K/usr/local/include/opencv4/opencv2/ximgproc/disparity_filter.hpp:82:20:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::ximgproc::DisparityWLSFilter[m[K’ declared here
+[2.765s]    82 | class CV_EXPORTS_W [01;36m[KDisparityWLSFilter[m[K : public DisparityFilter
+[2.765s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.765s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:101:28:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.765s]   101 |      Ptr<DisparityWLSFilter[01;31m[K>[m[K wls_filter;
+[2.765s]       |                            [01;31m[K^[m[K
+[2.770s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:118:16:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateDisparityWLSFilter[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::ximgproc::createDisparityWLSFilter[m[K’?
+[2.770s]   118 |   wls_filter = [01;31m[KcreateDisparityWLSFilter[m[K(left_matcher);
+[2.770s]       |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.770s]       |                [32m[Kcv::ximgproc::createDisparityWLSFilter[m[K
+[2.770s] In file included from [01m[K/usr/local/include/opencv4/opencv2/ximgproc.hpp:41[m[K,
+[2.770s]                  from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:30[m[K:
+[2.770s] [01m[K/usr/local/include/opencv4/opencv2/ximgproc/disparity_filter.hpp:131:25:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::ximgproc::createDisparityWLSFilter[m[K’ declared here
+[2.770s]   131 | Ptr<DisparityWLSFilter> [01;36m[KcreateDisparityWLSFilter[m[K(Ptr<StereoMatcher> matcher_left);
+[2.770s]       |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.774s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:119:38:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateRightMatcher[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::ximgproc::createRightMatcher[m[K’?
+[2.775s]   119 |   Ptr<StereoMatcher> right_matcher = [01;31m[KcreateRightMatcher[m[K(left_matcher);
+[2.775s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.775s]       |                                      [32m[Kcv::ximgproc::createRightMatcher[m[K
+[2.775s] In file included from [01m[K/usr/local/include/opencv4/opencv2/ximgproc.hpp:41[m[K,
+[2.775s]                  from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:30[m[K:
+[2.775s] [01m[K/usr/local/include/opencv4/opencv2/ximgproc/disparity_filter.hpp:139:20:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::ximgproc::createRightMatcher[m[K’ declared here
+[2.775s]   139 | Ptr<StereoMatcher> [01;36m[KcreateRightMatcher[m[K(Ptr<StereoMatcher> matcher_left);
+[2.775s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.779s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:123:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_disp[m[K’ was not declared in this scope
+[2.779s]   123 |   left_matcher-> compute(left_for_matcher, right_for_matcher,[01;31m[Kleft_disp[m[K);
+[2.779s]       |                                                              [01;31m[K^~~~~~~~~[m[K
+[2.784s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:124:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_disp[m[K’ was not declared in this scope
+[2.784s]   124 |   right_matcher->compute(right_for_matcher,left_for_matcher, [01;31m[Kright_disp[m[K);
+[2.785s]       |                                                              [01;31m[K^~~~~~~~~~[m[K
+[2.785s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:126:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.785s]   126 |         wls_filter[01;31m[K->[m[KsetLambda(lambda);
+[2.785s]       |                   [01;31m[K^~[m[K
+[2.785s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:127:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.785s]   127 |         wls_filter[01;31m[K->[m[KsetSigmaColor(sigma);
+[2.785s]       |                   [01;31m[K^~[m[K
+[2.785s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:128:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.785s]   128 |         wls_filter[01;31m[K->[m[Kfilter(left_disp,left,filtered_disp,right_disp);
+[2.785s]       |                   [01;31m[K^~[m[K
+[2.791s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:128:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kfiltered_disp[m[K’ was not declared in this scope
+[2.791s]   128 |         wls_filter->filter(left_disp,left,[01;31m[Kfiltered_disp[m[K,right_disp);
+[2.791s]       |                                           [01;31m[K^~~~~~~~~~~~~[m[K
+[2.792s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:130:9:[m[K [01;31m[Kerror: [m[K‘[01m[KgetDisparityVis[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::ximgproc::getDisparityVis[m[K’?
+[2.792s]   130 |         [01;31m[KgetDisparityVis[m[K(filtered_disp,filtered_disp_vis,vis_mult);
+[2.792s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.792s]       |         [32m[Kcv::ximgproc::getDisparityVis[m[K
+[2.792s] In file included from [01m[K/usr/local/include/opencv4/opencv2/ximgproc.hpp:41[m[K,
+[2.792s]                  from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:30[m[K:
+[2.793s] [01m[K/usr/local/include/opencv4/opencv2/ximgproc/disparity_filter.hpp:204:6:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::ximgproc::getDisparityVis[m[K’ declared here
+[2.793s]   204 | void [01;36m[KgetDisparityVis[m[K(InputArray src,OutputArray dst,double scale=1.0);
+[2.793s]       |      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.657s] make[2]: *** [CMakeFiles/elp_calibrate.dir/build.make:63: CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o] Error 1
+[3.657s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/elp_calibrate.dir/all] Error 2
+[3.658s] make: *** [Makefile:141: all] Error 2
+[3.660s] Invoked command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_read:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/tekomoro_tf:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/python_qos_demo:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/pkg_name:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_9:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_8:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab7:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab4:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab3:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/control_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/nav2_depend_ws/install/nav2_gazebo_spawner:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project:/opt/ros/foxy /usr/bin/cmake --build /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg -- -j4 -l4

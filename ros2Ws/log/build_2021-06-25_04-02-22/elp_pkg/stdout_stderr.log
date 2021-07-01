@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target elp_calibrate[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o[0m
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In member function ‘[01m[Kcv::Mat Node1::Compute_disparity(cv::Mat, cv::Mat)[m[K’:
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:132:38:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::ios_base&(std::ios_base&)[m[K’ to ‘[01m[Kcv::InputArray[m[K’ {aka ‘[01m[Kconst cv::_InputArray&[m[K’}
+  132 |         wls_filter->filter(left_disp,[01;31m[Kleft[m[K,filtered_disp,right_disp);
+      |                                      [01;31m[K^~~~[m[K
+      |                                      [01;31m[K|[m[K
+      |                                      [01;31m[Kstd::ios_base&(std::ios_base&)[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/ximgproc.hpp:41[m[K,
+                 from [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:30[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/ximgproc/disparity_filter.hpp:75:75:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvirtual void cv::ximgproc::DisparityFilter::filter(cv::InputArray, cv::InputArray, cv::OutputArray, cv::InputArray, cv::Rect, cv::InputArray)[m[K’
+   75 |     CV_WRAP virtual void filter(InputArray disparity_map_left, [01;36m[KInputArray left_view[m[K, OutputArray filtered_disparity_map, InputArray disparity_map_right = Mat(), Rect ROI = Rect(), InputArray right_view = Mat()) = 0;
+      |                                                                [01;36m[K~~~~~~~~~~~^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/elp_calibrate.dir/build.make:63: CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/elp_calibrate.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

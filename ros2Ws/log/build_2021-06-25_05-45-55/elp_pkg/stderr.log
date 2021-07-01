@@ -1,0 +1,29 @@
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In member function ‘[01m[Kcv::Mat Node1::Compute_depth(cv::Mat)[m[K’:
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:101:34:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kcv::Mat[m[K’ to ‘[01m[KIplImage*[m[K’ {aka ‘[01m[K_IplImage*[m[K’} in initialization
+  101 |   IplImage* out = [01;31m[Kdisparity.clone()[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~^~[m[K
+      |                                  [01;31m[K|[m[K
+      |                                  [01;31m[Kcv::Mat[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:103:27:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Krows[m[K’ in ‘[01m[Kout[m[K’, which is of pointer type ‘[01m[KIplImage*[m[K’ {aka ‘[01m[K_IplImage*[m[K’} (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  103 |   for (int i = 0; i < out.[01;31m[Krows[m[K; ++i)
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:105:28:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcols[m[K’ in ‘[01m[Kout[m[K’, which is of pointer type ‘[01m[KIplImage*[m[K’ {aka ‘[01m[K_IplImage*[m[K’} (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  105 |    for (int j = 0; j < out.[01;31m[Kcols[m[K; ++j)
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:114:6:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+  114 |   Mat[01;31m[K([m[Kconst IplImage* out, bool copyData=false);
+      |      [01;31m[K^[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:114:7:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+  114 |   Mat([01;31m[Kconst[m[K IplImage* out, bool copyData=false);
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:114:28:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+  114 |   Mat(const IplImage* out, [01;31m[Kbool[m[K copyData=false);
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:115:10:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kout[m[K’ from ‘[01m[KIplImage*[m[K’ {aka ‘[01m[K_IplImage*[m[K’} to ‘[01m[Kcv::Mat[m[K’
+  115 |   return [01;31m[Kout[m[K;
+      |          [01;31m[K^~~[m[K
+      |          [01;31m[K|[m[K
+      |          [01;31m[KIplImage* {aka _IplImage*}[m[K
+make[2]: *** [CMakeFiles/elp_calibrate.dir/build.make:63: CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/elp_calibrate.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

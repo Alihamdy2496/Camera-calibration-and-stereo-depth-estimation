@@ -1,0 +1,70 @@
+[0.021s] Invoking command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/tekomoro_tf:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/python_qos_demo:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/pkg_name:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_9:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_8:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab7:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab4:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab3:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/control_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/nav2_depend_ws/install/nav2_gazebo_spawner:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project:/opt/ros/foxy /usr/bin/cmake /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg -DCMAKE_INSTALL_PREFIX=/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_pkg
+[0.117s] -- The C compiler identification is GNU 9.3.0
+[0.204s] -- The CXX compiler identification is GNU 9.3.0
+[0.212s] -- Check for working C compiler: /usr/bin/cc
+[0.315s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.317s] -- Detecting C compiler ABI info
+[0.416s] -- Detecting C compiler ABI info - done
+[0.430s] -- Detecting C compile features
+[0.430s] -- Detecting C compile features - done
+[0.434s] -- Check for working CXX compiler: /usr/bin/c++
+[0.552s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.554s] -- Detecting CXX compiler ABI info
+[0.669s] -- Detecting CXX compiler ABI info - done
+[0.683s] -- Detecting CXX compile features
+[0.683s] -- Detecting CXX compile features - done
+[0.691s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.758s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.758s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.140s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.250s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.273s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.442s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.492s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.633s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.736s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.743s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.744s] -- Looking for pthread.h
+[1.854s] -- Looking for pthread.h - found
+[1.855s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.965s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.965s] -- Looking for pthread_create in pthreads
+[2.059s] -- Looking for pthread_create in pthreads - not found
+[2.060s] -- Looking for pthread_create in pthread
+[2.169s] -- Looking for pthread_create in pthread - found
+[2.170s] -- Found Threads: TRUE  
+[2.406s] -- Found OpenCV: /usr/local (found version "4.5.3") 
+[2.421s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.593s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.596s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.596s] -- Configured cppcheck include dirs: 
+[2.597s] -- Configured cppcheck exclude dirs and/or files: 
+[2.600s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.600s] -- Configured cpplint exclude dirs and/or files: 
+[2.602s] -- Added test 'lint_cmake' to check CMake code style
+[2.605s] -- Added test 'uncrustify' to check C / C++ code style
+[2.605s] -- Configured uncrustify additional arguments: 
+[2.607s] -- Added test 'xmllint' to check XML markup files
+[2.614s] -- Configuring done
+[2.637s] -- Generating done
+[2.640s] -- Build files have been written to: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg
+[2.651s] Invoked command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/tekomoro_tf:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/python_qos_demo:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/pkg_name:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_9:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_8:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab7:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab4:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab3:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/control_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/nav2_depend_ws/install/nav2_gazebo_spawner:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project:/opt/ros/foxy /usr/bin/cmake /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg -DCMAKE_INSTALL_PREFIX=/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/install/elp_pkg
+[2.656s] Invoking command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/tekomoro_tf:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/python_qos_demo:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/pkg_name:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_9:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_8:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab7:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab4:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab3:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/control_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/nav2_depend_ws/install/nav2_gazebo_spawner:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project:/opt/ros/foxy /usr/bin/cmake --build /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg -- -j4 -l4
+[2.746s] [35m[1mScanning dependencies of target elp_calibrate[0m
+[2.837s] [ 50%] [32mBuilding CXX object CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o[0m
+[6.303s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In constructor ‘[01m[KNode2::Node2()[m[K’:
+[6.303s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[6.303s]    31 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&Node1::timer_cb, this) );
+[6.303s]       |         [01;31m[K^~~~~~[m[K
+[6.303s]       |         [32m[Ktimer_t[m[K
+[6.303s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:31:85:[m[K [01;31m[Kerror: [m[K‘[01m[KNode1[m[K’ has not been declared
+[6.304s]    31 |         timer_ = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&[01;31m[KNode1[m[K::timer_cb, this) );
+[6.304s]       |                                                                                     [01;31m[K^~~~~[m[K
+[6.309s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In member function ‘[01m[Kvoid Node2::calibrate()[m[K’:
+[6.309s] [01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:171:12:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K-fpermissive[m[K]
+[6.309s]   171 |    return -[01;31m[K1[m[K;
+[6.310s]       |            [01;31m[K^[m[K
+[7.495s] make[2]: *** [CMakeFiles/elp_calibrate.dir/build.make:63: CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o] Error 1
+[7.496s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/elp_calibrate.dir/all] Error 2
+[7.496s] make: *** [Makefile:141: all] Error 2
+[7.499s] Invoked command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/tekomoro_tf:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/python_qos_demo:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/pkg_name:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/localization_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_9:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab_8:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab7:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab4:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab3:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/iti_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/GWS/install/control_lab1:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/nav2_depend_ws/install/nav2_gazebo_spawner:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project:/opt/ros/foxy /usr/bin/cmake --build /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/build/elp_pkg -- -j4 -l4

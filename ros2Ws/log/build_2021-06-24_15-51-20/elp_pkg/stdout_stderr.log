@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target elp_calibrate[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o[0m
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:78:4:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #cap2
+   78 |   #[01;31m[Kcap2[m[K >> myImageL;
+      |    [01;31m[K^~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:84:4:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #myImageL
+   84 |   #[01;31m[KmyImageL[m[K = calibrate(myImageL);
+      |    [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/elp_calibrate.dir/build.make:63: CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/elp_calibrate.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target elp_calibrate[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o[0m
+[100%] [32m[1mLinking CXX executable elp_calibrate[0m

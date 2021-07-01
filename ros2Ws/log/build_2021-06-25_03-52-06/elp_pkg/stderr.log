@@ -1,0 +1,37 @@
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:[m[K In member function ‘[01m[Kcv::Mat Node1::Compute_disparity(cv::Mat, cv::Mat)[m[K’:
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:101:10:[m[K [01;31m[Kerror: [m[K‘[01m[KDisparityWLSFilter[m[K’ was not declared in this scope
+  101 |      Ptr<[01;31m[KDisparityWLSFilter[m[K> wls_filter;
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:101:28:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  101 |      Ptr<DisparityWLSFilter[01;31m[K>[m[K wls_filter;
+      |                            [01;31m[K^[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:112:16:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateDisparityWLSFilter[m[K’ was not declared in this scope
+  112 |   wls_filter = [01;31m[KcreateDisparityWLSFilter[m[K(left_matcher);
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:113:38:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateRightMatcher[m[K’ was not declared in this scope
+  113 |   Ptr<StereoMatcher> right_matcher = [01;31m[KcreateRightMatcher[m[K(left_matcher);
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:117:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_disp[m[K’ was not declared in this scope
+  117 |   left_matcher-> compute(left_for_matcher, right_for_matcher,[01;31m[Kleft_disp[m[K);
+      |                                                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:118:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_disp[m[K’ was not declared in this scope
+  118 |   right_matcher->compute(right_for_matcher,left_for_matcher, [01;31m[Kright_disp[m[K);
+      |                                                              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:120:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  120 |         wls_filter[01;31m[K->[m[KsetLambda(lambda);
+      |                   [01;31m[K^~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:121:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  121 |         wls_filter[01;31m[K->[m[KsetSigmaColor(sigma);
+      |                   [01;31m[K^~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:122:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  122 |         wls_filter[01;31m[K->[m[Kfilter(left_disp,left,filtered_disp,right_disp);
+      |                   [01;31m[K^~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:122:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kfiltered_disp[m[K’ was not declared in this scope
+  122 |         wls_filter->filter(left_disp,left,[01;31m[Kfiltered_disp[m[K,right_disp);
+      |                                           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/project_camera_calibration/implementations/CameraCalibration1/build/ros2Ws/src/elp_pkg/src/elp_calibrate.cpp:124:9:[m[K [01;31m[Kerror: [m[K‘[01m[KgetDisparityVis[m[K’ was not declared in this scope
+  124 |         [01;31m[KgetDisparityVis[m[K(filtered_disp,filtered_disp_vis,vis_mult);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/elp_calibrate.dir/build.make:63: CMakeFiles/elp_calibrate.dir/src/elp_calibrate.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/elp_calibrate.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

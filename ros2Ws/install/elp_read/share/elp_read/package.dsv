@@ -1,0 +1,6 @@
+source;share/elp_read/hook/pythonpath.ps1
+source;share/elp_read/hook/pythonpath.dsv
+source;share/elp_read/hook/pythonpath.sh
+source;share/elp_read/hook/ament_prefix_path.ps1
+source;share/elp_read/hook/ament_prefix_path.dsv
+source;share/elp_read/hook/ament_prefix_path.sh
